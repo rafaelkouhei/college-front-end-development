@@ -9,26 +9,30 @@
 
 html {
   background-image: url("bg1.gif");
+  overflow-y: hidden;
 }
 
 main {
   background: rgb(0 0 0 / 60%);
-  margin-top: 1.1%;
-  margin-right: 22%;
-  margin-left: 22%;
-  padding: 3%;
+  margin-top: 2.5%;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 2%;
   border-radius: 3cap;
   display: flex;
   flex-direction: row;
   .description {
-    font-size: 1.15em;
+    font-size: 0.95em;
     flex: 1 1 auto;
   }
   .specs {
     flex: 1 1 auto;
     p {
-      font-size: 1.15em;
+      font-size: 0.95em;
     }
   }
 }
 
+.links-container > a > img {
+  max-width: 5%;
+}
