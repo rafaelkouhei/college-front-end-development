@@ -1,3 +1,9 @@
-html {
-	font-family: fantasy;
+* {
+  color: white;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  background-image: url("https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif");
 }
